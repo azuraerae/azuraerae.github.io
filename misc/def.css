@@ -1,0 +1,30 @@
+html body{
+    height: 100%;
+    padding: 0; 
+    margin: 0;
+    overflow: hidden;
+}
+
+.sTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sText{ 
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    align-self: center;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
